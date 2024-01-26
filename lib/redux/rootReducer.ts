@@ -1,6 +1,5 @@
-/* Instruments */
-import { counterSlice } from "./slices";
+import { searchSlice } from './slices/searchSlice'
 
 export const reducer = {
-  counter: counterSlice.reducer,
-};
+  search: searchSlice
+}
